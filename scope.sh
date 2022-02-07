@@ -5,7 +5,7 @@ PLUGIN_DIR=$(pwd -P)
 TMP_DIR="${PLUGIN_DIR}/build-tmp"
 
 
-# remove current vendor directory to prevent "prefixing the prefixed vendor classes"
+# remove current vendor directory to prevent prefixing the previously prefixed vendor classes ( if this is not first run of script )
 rm -rvf "${PLUGIN_DIR}/vendor"
 
 # refresh depdendencies / prepare for php-scoper
