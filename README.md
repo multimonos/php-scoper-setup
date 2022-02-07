@@ -18,7 +18,7 @@ Create the `scoper.inc.php` file
 php-scoper init
 ```
 
-# Customize the scoper.init.php
+# Customize scoper.init.php
 
 In my case i have my psr-4 namespaced class in `./lib`, so, I modified `scoper.inc.php`,
 
@@ -27,7 +27,7 @@ FIND    -> Finder::create()->files()->in('src'),
 REPLACE -> Finder::create()->files()->in('lib'),
 ```
 
-# Run the scope.sh script
+# Run script scope.sh
 
 ```bash
 cd /path/to/project
@@ -35,7 +35,7 @@ chmod +x ./scope.sh
 ./scope.sh
 ```
 
-# Require the new php-scoper autoloader
+# Require the php-scoper autoloader
 
 Instead of requiring `vendor/autoload.php` I include `vendor/scoper-autoload.php` which also includes the standard autoloader.
 
