@@ -38,7 +38,7 @@ cd /path/to/project
 
 Instead of requiring `vendor/autoload.php` I include `vendor/scoper-autoload.php` which also includes the standard autoloader.
 
-Option 1)
+Option 1)  Just require the file 
 
 ```php
  require_once __DIR__ . '/vendor/scoper-autoload.php';
