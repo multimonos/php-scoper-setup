@@ -18,7 +18,7 @@ Create the `scoper.inc.php` file
 php-scoper init
 ```
 
-# Customize the ./scoper.init.php
+# Customize the scoper.init.php
 
 In my case i have my psr-4 namespaced class in `./lib`, so, I modified `scoper.inc.php`,
 
