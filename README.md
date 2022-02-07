@@ -31,6 +31,7 @@ REPLACE -> Finder::create()->files()->in('lib'),
 
 ```bash
 cd /path/to/project
+chmod +x ./scope.sh
 ./scope.sh
 ```
 
